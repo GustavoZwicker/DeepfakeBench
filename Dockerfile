@@ -1,6 +1,6 @@
 # Copyright@SCLBD
 # This Dockerfile aims to build the base image for Deepfakbench.
-FROM pytorch/pytorch:1.12.0-cuda11.3-cudnn8-devel
+FROM rocm/pytorch:rocm6.2.1_ubuntu20.04_py3.9_pytorch_release_1.13.1
 
 LABEL maintainer="Deepfake"
 

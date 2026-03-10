@@ -7,6 +7,7 @@ import json
 import os
 import random
 from PIL import Image
+os.add_dll_directory("C:/Users/Gustavo Zwicker/.conda/envs/DeepfakeBench/Lib/site-packages/skimage/segmentation/")
 from imgaug import augmenters as iaa
 from .DeepFakeMask import dfl_full,facehull,components,extended,gridMasking,MeshgridMasking, facehull2
 from .SLADD import SladdMasking
